@@ -55,7 +55,7 @@
 
 - 本アプリは、タスクの内容（タイトル・メモ・完了結果など）を広告 SDK に渡しません。
 - 広告の内容は、全年齢向け（G）に制限しています。
-- 第7条の購入で広告を非表示にした場合、本アプリは広告 SDK を使用せず、本条の送信も行いません。
+- 第7条の購入をストアで確認できた後は、本アプリは広告 SDK を使用せず、本条の送信も行いません。再インストールの直後や新しい端末で最初に起動したときなどに、ストアでの確認が間に合わない場合は、確認できるまでの間、広告の表示と送信が行われることがあります。
 - 情報は、暗号化された通信（TLS）で Google に送信されます。
 - Google は、Google のプライバシーポリシーと、運営者と Google の間の規約（Google 広告のデータ保護規約など）に従って情報を扱います。運営者は、これらの規約により、Google が本ポリシーと同等以上の保護を行うことを確認しています。
 - 運営者は、広告 SDK が送信する情報を受け取らず、保存もしません。Google での保存期間は「Google によるデータの保持」（<https://policies.google.com/technologies/retention>）に従います。
@@ -71,7 +71,7 @@
 - **その他の地域**: 広告は既定でパーソナライズされます。下記の方法で、広告 ID を削除・リセットできます。
 - 回答は、設定画面の「広告のプライバシー設定」からいつでも変更・取り消しできます（表示されるのは、上記の同意や選択が必要な地域だけです）。
 - **Android**: 端末の設定（「Google」→「広告」など。機種により異なります）で、広告 ID の削除・リセットができます。
-- **iOS**: 広告を表示する前に、他社のアプリやウェブサイトをまたいだトラッキングを許可するかを確認するダイアログ（App Tracking Transparency）を表示します。IDFA が広告に使われるのは、許可した場合だけです。許可しない場合、他社のアプリやウェブサイトをまたいだトラッキングは行いません。許可しなくても、本アプリのすべての機能を利用でき、広告も表示されます。許可は iOS の「設定」→「プライバシーとセキュリティ」→「トラッキング」でいつでも変更できます。
+- **iOS**: 広告を表示する前に、他社のアプリやウェブサイトをまたいだトラッキングを許可するかを確認するダイアログ（App Tracking Transparency）を表示します。IDFA が広告に使われるのは、許可した場合だけです。許可しない場合、他社のアプリやウェブサイトをまたいだトラッキングは行いません。許可しなくても、本アプリのすべての機能を利用でき、広告も表示されます。許可は iOS の「設定」→「プライバシーとセキュリティ」→「トラッキング」でいつでも変更できます。EEA・英国・スイスで、同意管理ツールの「端末への情報の保存・アクセス」に同意しなかった場合は、このダイアログを表示しません（広告は端末の識別子を使いません）。
 - Google のマイ アド センター（Google が保有する情報の確認・削除）: <https://myadcenter.google.com/>
 - **EEA・英国・スイスの利用者の方へ**: 広告 SDK による情報の収集については、運営者（KOKOAPPS、kokoapps@outlook.jp）と Google がそれぞれ管理者にあたります。法的根拠は、端末への情報の保存・読み取りとパーソナライズ広告については同意（GDPR 第 6 条 1 項 (a)）、広告の配信・効果測定・不正防止については、同意管理ツールで示す範囲での正当な利益（同 (f)）です。Google LLC（米国）への移転は、Google の規約に定める保護措置（EU-米国データ・プライバシー・フレームワーク、標準契約条項など）に基づきます。利用者には、アクセス、訂正、消去、処理の制限、異議、データポータビリティの権利があり、同意はいつでも撤回できます。お住まいの国のデータ保護監督機関に苦情を申し立てることもできます。
 
@@ -82,7 +82,8 @@
 - 支払いは各ストア（Apple Inc.、Google LLC）が処理します。運営者は、支払い方法などの決済情報を取得しません。決済情報は、各ストアのプライバシーポリシーに従って扱われます。
 - 本アプリは、購入済みかどうかを端末内に保存します。購入の確認と復元のため、起動時と「購入を復元」の操作時に、端末から各ストアに問い合わせます。購入の情報を運営者のサーバーに送信することはありません。
 - 運営者は、各ストアから売上の報告として、注文番号・国・金額などの情報を受け取ることがあります。これらは、売上の管理とお問い合わせへの対応のためだけに使います。
-- 購入した場合、本アプリは広告 SDK を使用せず、広告の同意の確認とトラッキングの確認も表示しません。
+- 購入をストアで確認できた後は、本アプリは広告 SDK を使用せず、広告の同意の確認とトラッキングの確認も表示しません。確認が間に合わない場合（第5条）は、確認できるまでの間、これらが表示されることがあります。
+- 購入の復元は、購入したときと同じストア（App Store または Google Play）の同じアカウントで行えます。Android と iPhone の間では引き継げません。
 
 ## 8. 第三者提供
 
@@ -143,7 +144,7 @@ Voice input uses your OS speech recognition (the device's recognition service on
 Google LLC (Google Mobile Ads SDK) may collect: advertising identifiers (Android advertising ID; the iOS IDFA only if you allow tracking), the app set ID (Android), IP address (may be used to estimate approximate location), device information (model, OS, language), app information, ad impressions and clicks, and diagnostics such as crash data — for ad delivery, ad personalization, measurement, fraud prevention and service improvement.
 - The App does not pass the content of your tasks (titles, notes, completion results) to the ads SDK.
 - Ad content is limited to general audiences (rating "G").
-- If you remove the ads with the purchase in Section 7, the App no longer uses the ads SDK and sends nothing described in this section.
+- Once the store has confirmed the purchase in Section 7, the App no longer uses the ads SDK and sends nothing described in this section. Right after a reinstall or on the first start on a new device, if the store cannot confirm the purchase in time, ads may be shown and this information sent until it does.
 - The information is sent to Google over encrypted connections (TLS).
 - Google handles the information under the Google Privacy Policy and the terms between the operator and Google (such as the Google Ads Data Protection Terms). Through these terms the operator has confirmed that Google protects the information at least as well as this policy does.
 - The operator does not receive or store the information the ads SDK sends. Google keeps it as described in "How Google retains data we collect" (<https://policies.google.com/technologies/retention>).
@@ -156,7 +157,7 @@ Google LLC (Google Mobile Ads SDK) may collect: advertising identifiers (Android
 - **Other regions**: ads are personalized by default. You can delete or reset your advertising ID as described below.
 - You can change or withdraw your choices anytime under "Ad privacy settings" in Settings (shown only in the regions above that require consent or a choice).
 - **Android**: you can delete or reset your advertising ID in device settings (e.g., Google > Ads; this varies by device).
-- **iOS**: before showing ads, the App asks whether you allow tracking across other companies' apps and websites (App Tracking Transparency). The IDFA is used for ads only if you allow it. If you do not, the App does not track you across other companies' apps or websites; you can still use every feature of the App, and ads are still shown. You can change this anytime in iOS Settings > Privacy & Security > Tracking.
+- **iOS**: before showing ads, the App asks whether you allow tracking across other companies' apps and websites (App Tracking Transparency). The IDFA is used for ads only if you allow it. If you do not, the App does not track you across other companies' apps or websites; you can still use every feature of the App, and ads are still shown. You can change this anytime in iOS Settings > Privacy & Security > Tracking. In the EEA, the UK and Switzerland, the App does not ask if you did not consent to storing or accessing information on your device in the consent tool (ads then use no device identifiers).
 - Google My Ad Center (review or delete information Google holds): <https://myadcenter.google.com/>
 - **Users in the EEA, the UK and Switzerland**: for the collection by the ads SDK, the operator (KOKOAPPS, kokoapps@outlook.jp) and Google are each controllers. Legal bases: consent (Art. 6(1)(a) GDPR) for storing and reading information on your device and for personalized ads; legitimate interests (Art. 6(1)(f) GDPR) for serving ads, measurement and fraud prevention, to the extent shown in the consent tool. Transfers to Google LLC (United States) rely on the safeguards in Google's terms (the EU-U.S. Data Privacy Framework, standard contractual clauses, etc.). You have the rights of access, rectification, erasure, restriction, objection and data portability, and you can withdraw your consent at any time. You can also lodge a complaint with your data protection authority.
 
@@ -165,7 +166,8 @@ The App sells the removal of the ads (a one-time purchase) through in-app purcha
 - Payments are processed by the stores (Apple Inc., Google LLC). The operator does not receive payment information such as your payment method; the stores handle it under their privacy policies.
 - The App stores on your device whether you have bought the removal. To check and restore the purchase, it asks the store from your device when it starts and when you tap "Restore purchase". Nothing about the purchase is sent to the operator's servers.
 - The stores may send the operator sales reports with information such as order numbers, countries and amounts. They are used only to manage sales and to answer your inquiries.
-- Once you have bought the removal, the App no longer uses the ads SDK and no longer shows the ad consent or tracking questions.
+- Once the store has confirmed the purchase, the App no longer uses the ads SDK and no longer shows the ad consent or tracking questions. If the store cannot confirm it in time (Section 5), they may appear until it does.
+- The purchase can be restored with the same account of the store you bought it from (App Store or Google Play). It does not carry over between Android and iPhone.
 
 ## 8. Sharing with third parties
 Apart from the OS features described above that you choose to use (Sections 3 and 4), the advertising described in Section 5 and the payments processed by the stores described in Section 7, the App does not send your information outside the device or share it with third parties. Except for the sales reports in Section 7 and your inquiries in Section 11, the operator holds no information about you.
