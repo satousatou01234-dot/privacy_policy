@@ -3,8 +3,8 @@
 [English](#english) ｜ [アプリ一覧に戻る](../)
 
 - 制定日: 2026年11月7日
-- 運営者: 【運営者名】
-- お問い合わせ: 【連絡先メールアドレス】
+- 運営者: KOKOAPPS
+- お問い合わせ: kokoapps@outlook.jp
 - 対象: Android 版（Google Play）・iOS 版（App Store）
 
 本ポリシーは、パズルゲーム「Kokoa's Prime Drops（ココアズ・プライムドロップス）」（以下「本アプリ」）における利用者情報の取り扱いを定めるものです。
@@ -48,8 +48,8 @@
 # Kokoa's Prime Drops Privacy Policy (English)
 
 - Effective date: November 7, 2026
-- Operator: [Operator name]
-- Contact: [Contact email]
+- Operator: KOKOAPPS
+- Contact: kokoapps@outlook.jp
 - Applies to: Android (Google Play) and iOS (App Store)
 
 ## 1. Overview
