@@ -74,7 +74,7 @@
 本アプリは、バナーと全画面広告を非表示にする機能（1 回払いの買い切り）を、App Store または Google Play のアプリ内課金で販売しています。販売の条件は「[特定商取引法に基づく表記](tokushoho/)」をご覧ください。
 
 - 支払いは各ストア（Apple Inc.、Google LLC）が処理します。運営者は、支払い方法などの決済情報を取得しません。決済情報は、各ストアのプライバシーポリシーに従って扱われます。
-- 本アプリは、購入済みかどうかを端末内に保存します。購入の確認と復元のため、起動時と「購入を復元」の操作時に、端末から各ストアに問い合わせます。購入の情報を運営者のサーバーに送信することはありません。
+- 本アプリは、購入済みかどうかを端末内に保存します。購入の確認・価格の表示・復元のため、起動時や設定画面を開いたとき、「購入」「購入を復元」の操作時に、端末から各ストアに問い合わせます。購入の情報を運営者のサーバーに送信することはありません。
 - 運営者は、各ストアから売上の報告として、注文番号・国・金額などの情報を受け取ることがあります。これらは、売上の管理とお問い合わせへの対応のためだけに使います。
 - 購入しても、補給（リワード広告）は利用者が選んだときに見られます（第3条）。
 - 購入の復元は、購入したときと同じストア（App Store または Google Play）の同じアカウントで行えます。Android と iPhone の間では引き継げません。
@@ -154,7 +154,7 @@ The App does not use location, camera, microphone, contacts or photo permissions
 ## 6. In-app purchase (removing the ads)
 The App sells the removal of the banner and full-screen ads (a one-time purchase) through in-app purchases on the App Store or Google Play. For the terms of sale, see the [legal notice](tokushoho/#english).
 - Payments are processed by the stores (Apple Inc., Google LLC). The operator does not receive payment information such as your payment method; the stores handle it under their privacy policies.
-- The App stores on your device whether you have bought the removal. To check and restore the purchase, it asks the store from your device when it starts and when you tap "Restore purchase". Nothing about the purchase is sent to the operator's servers.
+- The App stores on your device whether you have bought the removal. To check the purchase, show the price and restore the purchase, it asks the store from your device when it starts, when you open Settings and when you tap "Buy" or "Restore purchase". Nothing about the purchase is sent to the operator's servers.
 - The stores may send the operator sales reports with information such as order numbers, countries and amounts. They are used only to manage sales and to answer your inquiries.
 - After the purchase you can still choose to watch supply drops (Section 3).
 - The purchase can be restored with the same account of the store you bought it from (App Store or Google Play). It does not carry over between Android and iPhone.
