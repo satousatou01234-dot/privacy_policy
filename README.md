@@ -4,7 +4,7 @@
 GitHub Pages で公開し、各ストアのプライバシーポリシー URL 欄とアプリ内のリンクに設定します。
 
 > 法的助言ではありません。公開前に、必要に応じて専門家の確認を受けてください。
-> 各ポリシーは 2026年11月7日時点の各リポジトリのコード（依存パッケージ・AndroidManifest・Info.plist・ソース）を確認して書いています。SimpleToDoMAX2 は、2026年11月13日に、広告（AdMob）・トラッキングの確認（ATT）・アプリ内課金（広告の非表示）に合わせて更新し、特定商取引法に基づく表記を追加しました。
+> 各ポリシーは 2026年11月7日時点の各リポジトリのコード（依存パッケージ・AndroidManifest・Info.plist・ソース）を確認して書いています。SimpleToDoMAX2 は、2026年11月13日に、広告（AdMob）・トラッキングの確認（ATT）・アプリ内課金（広告の非表示）に合わせて更新し、特定商取引法に基づく表記を追加しました。Kokoa's Prime Drops は、2026年11月14日に、prime_drop リポジトリの v0.5（バナー広告、ボムがもらえるリワード インタースティシャル広告、広告の非表示のアプリ内課金、設定の保存）に合わせて更新し、特定商取引法に基づく表記を追加しました。
 
 ## 1. 構成と公開 URL
 
@@ -18,6 +18,7 @@ GitHub Pages で公開し、各ストアのプライバシーポリシー URL �
 | 麻雀道場 | `mahjongdojo/index.md` | `…/privacy_policy/mahjongdojo/` | MahjongDojo（`flutter_app/`） |
 | VELVET TRIGGER | `velvettrigger/index.md` | `…/privacy_policy/velvettrigger/` | windage_sniper |
 | Kokoa's Prime Drops | `primedrops/index.md` | `…/privacy_policy/primedrops/` | prime_drop |
+| Kokoa's Prime Drops（特定商取引法に基づく表記） | `primedrops/tokushoho/index.md` | `…/privacy_policy/primedrops/tokushoho/` | prime_drop |
 
 公開手順: リポジトリの Settings → Pages → Source を「Deploy from a branch」、ブランチを既定ブランチ・`/ (root)` にする。
 App Store・Google Play とも、ポリシーのページはログイン不要で閲覧でき、PDF ではなくウェブページである必要があります（GitHub Pages で満たせます）。
@@ -25,7 +26,7 @@ App Store・Google Play とも、ポリシーのページはログイン不要�
 ### 記入した運営者・連絡先
 
 - 運営者: KOKOAPPS、連絡先: kokoapps@outlook.jp（2026年11月13日に全ページへ記入）。ストアの「デベロッパーの連絡先」にも同じものを設定することを推奨します。
-- 特定商取引法に基づく表記（SimpleToDoMAX2）では、運営責任者・所在地・電話番号を「請求があれば遅滞なく開示」としています。請求があったときにすぐ提供できるよう、準備しておいてください。屋号だけでは事業者の表示として足りないとされることもあるため、公開前に専門家に確認することを推奨します。
+- 特定商取引法に基づく表記（SimpleToDoMAX2・Kokoa's Prime Drops）では、運営責任者・所在地・電話番号を「請求があれば遅滞なく開示」としています。請求があったときにすぐ提供できるよう、準備しておいてください。屋号だけでは事業者の表示として足りないとされることもあるため、公開前に専門家に確認することを推奨します。
 - SimpleToDoMAX2 を EU・英国で配信し、EU 代理人・英国代理人（GDPR 第 27 条）を置く場合は、第6条（英語版も）に名称と連絡先を追記してください（dev リポジトリの `doc/LEGAL_REVIEW.md` §5 の 8a）。
 
 記入漏れは、次のコマンドで確認できます。
@@ -43,7 +44,7 @@ grep -rn -e '【' -e '\[Operator' -e '\[Contact' --include=*.md .
 | WBS Planner | なし | なし | カレンダー読書き、生体認証、ファイル選択、共有 | SQLite（`allowBackup=false`） |
 | 麻雀道場（Flutter 版） | なし（生成 AI 機能は削除済み） | なし | なし | アプリ専用領域のファイル |
 | VELVET TRIGGER | なし | なし | モーションセンサー、TTS、画面点灯維持 | SharedPreferences |
-| Kokoa's Prime Drops | なし | なし | なし（効果音のみ） | なし |
+| Kokoa's Prime Drops | Android 版はあり（AdMob、アプリ内課金のストアへの問い合わせ）。Windows 版はなし | google_mobile_ads（UMP 同意、ATT なし〔iOS 版なし〕、広告レーティング G、バナーとリワード インタースティシャル）、in_app_purchase（Google Play Billing） | INTERNET・ACCESS_NETWORK_STATE・AD_ID（広告 SDK が追加）、BILLING、振動 | SharedPreferences（音量・言語、広告の非表示を購入済みかどうか）。得点は保存しない |
 
 麻雀道場の WPF 版（Windows、Gemini・OpenAI・Claude の API を利用）は Android / Apple 向けではないため対象外です。Microsoft Store 等で配信する場合は、API キーの保存と各 AI 事業者への送信を記載した別のポリシーが必要です。
 
@@ -58,10 +59,10 @@ grep -rn -e '【' -e '\[Operator' -e '\[Contact' --include=*.md .
 | WBS Planner | 収集しない・共有しない | 通信なし |
 | 麻雀道場 | 収集しない・共有しない | 通信なし |
 | VELVET TRIGGER | 収集しない・共有しない | 通信なし |
-| Kokoa's Prime Drops | 収集しない・共有しない | 通信なし |
+| Kokoa's Prime Drops | **収集する・共有する（広告 SDK）** | 英語道場と同じ（広告 SDK の分）。アプリ内課金: 購入済みかどうかは端末内だけに保存し、アプリは送信しない。決済は Google Play が処理する。リワード広告で渡すのはゲーム内のボムだけ。※ Google の AdMob 用の申告ガイドで最新の内容を確認すること |
 
-あわせて: 英語道場と SimpleToDoMAX2 は「広告」の宣言で「はい（広告を含む）」、広告 ID の使用宣言で「広告・マーケティング」を選ぶ。ほかのアプリは「広告を含まない」。SimpleToDoMAX2 の「アプリ内購入あり」は、Play Console で商品を登録するとストアに表示される。
-ターゲット年齢は 13 歳以上（Kokoa's Prime Drops を子ども向けに含める場合はファミリー ポリシーへの対応が必要。データは収集しないので対応しやすい）。
+あわせて: 英語道場・SimpleToDoMAX2・Kokoa's Prime Drops は「広告」の宣言で「はい（広告を含む）」、広告 ID の使用宣言で「広告・マーケティング」を選ぶ。ほかのアプリは「広告を含まない」。Kokoa's Prime Drops の広告の非表示（管理対象のアイテム `remove_ads`、200 円）は Play Console で登録する。SimpleToDoMAX2 の「アプリ内購入あり」は、Play Console で商品を登録するとストアに表示される。
+ターゲット年齢は 13 歳以上（Kokoa's Prime Drops を子ども向けに含める場合はファミリー ポリシーへの対応が必要。広告を入れたので、ファミリー向けの認定を受けた広告 SDK の設定〔子ども向けとして扱う指定など〕とポリシーの書き直しが要る。今は広告レーティングを G に制限しているだけ）。
 
 ### 3.2 App Store Connect「App のプライバシー」
 
@@ -72,7 +73,7 @@ grep -rn -e '【' -e '\[Operator' -e '\[Contact' --include=*.md .
 | WBS Planner | 「データを収集しない」 |
 | 麻雀道場 | 「データを収集しない」 |
 | VELVET TRIGGER | 「データを収集しない」 |
-| Kokoa's Prime Drops | 「データを収集しない」 |
+| Kokoa's Prime Drops | iOS 版は未提供（広告・課金は Android 版だけに実装）。iOS で配信する場合は、SimpleToDoMAX2 と同様の申告とポリシーの追記が必要 |
 
 ## 4. アプリ側でやること（参考）
 

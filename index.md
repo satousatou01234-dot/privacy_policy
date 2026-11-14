@@ -10,6 +10,6 @@ Privacy policies for our apps on Google Play and the App Store.
 | WBS Planner | なし / None | [日本語・English](wbsplanner/) |
 | 麻雀道場（MahjongDojo） | なし / None | [日本語・English](mahjongdojo/) |
 | VELVET TRIGGER | なし / None | [日本語・English](velvettrigger/) |
-| Kokoa's Prime Drops | なし / None | [日本語・English](primedrops/) |
+| Kokoa's Prime Drops | Google AdMob（広告 / ads）、アプリ内課金（Google Play / in-app purchase）。Windows 版はなし / None on Windows | [日本語・English](primedrops/)、[特定商取引法に基づく表記 / Legal notice](primedrops/tokushoho/) |
 
 運営者 / Operator: KOKOAPPS ｜ お問い合わせ / Contact: kokoapps@outlook.jp
