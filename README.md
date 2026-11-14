@@ -27,7 +27,7 @@ App Store・Google Play とも、ポリシーのページはログイン不要�
 
 - 運営者: KOKOAPPS、連絡先: kokoapps@outlook.jp（2026年11月13日に全ページへ記入）。ストアの「デベロッパーの連絡先」にも同じものを設定することを推奨します。
 - 特定商取引法に基づく表記（SimpleToDoMAX2・Kokoa's Prime Drops）では、運営責任者・所在地・電話番号を「請求があれば遅滞なく開示」としています。請求があったときにすぐ提供できるよう、準備しておいてください。屋号だけでは事業者の表示として足りないとされることもあるため、公開前に専門家に確認することを推奨します。
-- SimpleToDoMAX2 を EU・英国で配信し、EU 代理人・英国代理人（GDPR 第 27 条）を置く場合は、第6条（英語版も）に名称と連絡先を追記してください（dev リポジトリの `doc/LEGAL_REVIEW.md` §5 の 8a）。
+- SimpleToDoMAX2・Kokoa's Prime Drops を EU・英国で配信し、EU 代理人・英国代理人（GDPR 第 27 条）を置く場合は、それぞれのポリシーの第6条（英語版も）に名称と連絡先を追記してください（SimpleToDoMAX2 は dev リポジトリの `doc/LEGAL_REVIEW.md` §5 の 8a。Kokoa's Prime Drops は `primedrops/index.md` 第6条）。
 
 記入漏れは、次のコマンドで確認できます。
 
@@ -44,7 +44,7 @@ grep -rn -e '【' -e '\[Operator' -e '\[Contact' --include=*.md .
 | WBS Planner | なし | なし | カレンダー読書き、生体認証、ファイル選択、共有 | SQLite（`allowBackup=false`） |
 | 麻雀道場（Flutter 版） | なし（生成 AI 機能は削除済み） | なし | なし | アプリ専用領域のファイル |
 | VELVET TRIGGER | なし | なし | モーションセンサー、TTS、画面点灯維持 | SharedPreferences |
-| Kokoa's Prime Drops | Android 版はあり（AdMob、アプリ内課金のストアへの問い合わせ）。Windows 版はなし | google_mobile_ads（UMP 同意、ATT なし〔iOS 版なし〕、広告レーティング G、バナーとリワード インタースティシャル）、in_app_purchase（Google Play Billing） | INTERNET・ACCESS_NETWORK_STATE・AD_ID（広告 SDK が追加）、BILLING、振動 | SharedPreferences（音量・言語、広告の非表示を購入済みかどうか）。得点は保存しない |
+| Kokoa's Prime Drops | Android 版はあり（AdMob、アプリ内課金のストアへの問い合わせ）。Windows 版はなし | google_mobile_ads（UMP 同意、ATT なし〔iOS 版なし〕、広告レーティング G、バナーとリワード インタースティシャル）、in_app_purchase（Google Play Billing） | INTERNET・ACCESS_NETWORK_STATE・AD_ID・ACCESS_ADSERVICES_AD_ID／ATTRIBUTION／TOPICS・WAKE_LOCK・FOREGROUND_SERVICE（広告 SDK が追加）、BILLING、振動。設定から特定商取引法に基づく表記にもリンク（prime_drop の `lib/src/ui/app_info.dart` の `legalNoticeUrl`） | SharedPreferences（音量・言語、広告の非表示を購入済みかどうか）。得点は保存しない |
 
 麻雀道場の WPF 版（Windows、Gemini・OpenAI・Claude の API を利用）は Android / Apple 向けではないため対象外です。Microsoft Store 等で配信する場合は、API キーの保存と各 AI 事業者への送信を記載した別のポリシーが必要です。
 
