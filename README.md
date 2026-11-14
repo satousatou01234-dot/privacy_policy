@@ -20,6 +20,7 @@ GitHub Pages で公開し、各ストアのプライバシーポリシー URL �
 | 麻雀道場 | `mahjongdojo/index.md` | `…/privacy_policy/mahjongdojo/` | MahjongDojo（`flutter_app/`） |
 | 麻雀道場（特定商取引法に基づく表記） | `mahjongdojo/tokushoho/index.md` | `…/privacy_policy/mahjongdojo/tokushoho/` | MahjongDojo（`flutter_app/`） |
 | VELVET TRIGGER | `velvettrigger/index.md` | `…/privacy_policy/velvettrigger/` | windage_sniper |
+| VELVET TRIGGER（特定商取引法に基づく表記） | `velvettrigger/tokushoho/index.md` | `…/privacy_policy/velvettrigger/tokushoho/` | windage_sniper |
 | Kokoa's Prime Drops | `primedrops/index.md` | `…/privacy_policy/primedrops/` | prime_drop |
 | Kokoa's Prime Drops（特定商取引法に基づく表記） | `primedrops/tokushoho/index.md` | `…/privacy_policy/primedrops/tokushoho/` | prime_drop |
 
