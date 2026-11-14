@@ -13,6 +13,7 @@
 | 所在地 | 請求があった場合には、遅滞なく電子メールで開示します |
 | 電話番号 | 請求があった場合には、遅滞なく電子メールで開示します |
 | メールアドレス | kokoapps@outlook.jp |
+| 販売する商品 | 「広告を非表示にする」（アプリ内課金。1 回払いの買い切りで、定期購入ではありません）。購入すると、本アプリのすべての画面で広告が表示されなくなります |
 | 販売価格 | 広告の非表示（1 回払いの買い切り）: 200 円（税込）。各ストアの購入画面に表示される価格をご確認ください |
 | 商品代金以外の必要料金 | インターネット接続の通信料（お客様のご負担） |
 | 支払方法 | App Store または Google Play が提供する支払方法 |
@@ -20,7 +21,7 @@
 | 提供時期 | お支払いの完了後、ただちに広告が表示されなくなります |
 | 返品・キャンセル | デジタルコンテンツのため、購入の確定後は、お客様のご都合による返品・キャンセルはできません。返金は、各ストア（App Store・Google Play）の規定に従います |
 | 購入の復元 | 機種変更や再インストールのあとは、アプリの「設定」→「広告」→「購入を復元」で元に戻せます（購入したときと同じ Apple アカウント・Google アカウントでのご利用が必要です。Android と iPhone の間では引き継げません） |
-| 動作環境 | Android 8.0 以上、iOS 15.0 以上 |
+| 動作環境 | Android 8.0 以上、iOS 15.0 以上（ご購入の前に、無料でダウンロードして、お使いの端末で動作することをご確認ください） |
 
 ---
 
@@ -41,6 +42,7 @@ This notice covers the in-app purchase (removing the ads) of the scheduling app 
 | Address | Disclosed by email without delay upon request |
 | Phone number | Disclosed by email without delay upon request |
 | Email | kokoapps@outlook.jp |
+| Product | "Remove ads" (an in-app purchase; a one-time purchase, not a subscription). After buying it, no ads are shown on any screen of the app |
 | Price | Removing the ads (a one-time purchase): ¥200 including tax in Japan. The store's purchase screen shows the price in your currency |
 | Other charges | Charges for your internet connection |
 | Payment method | The payment methods of the App Store or Google Play |
@@ -48,4 +50,4 @@ This notice covers the in-app purchase (removing the ads) of the scheduling app 
 | Delivery | The ads disappear as soon as the payment is complete |
 | Returns and cancellations | As this is digital content, purchases cannot be returned or cancelled for your own reasons once confirmed. Refunds follow the rules of the App Store or Google Play |
 | Restoring the purchase | After changing devices or reinstalling the app, use Settings > Ads > "Restore purchases" in the app (with the same Apple Account or Google account you bought it with; it does not carry over between Android and iPhone) |
-| Requirements | Android 8.0 or later, iOS 15.0 or later |
+| Requirements | Android 8.0 or later, iOS 15.0 or later (the app is free to download, so please check that it works on your device before buying) |
