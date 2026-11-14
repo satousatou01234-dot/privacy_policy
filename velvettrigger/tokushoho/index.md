@@ -19,7 +19,7 @@
 | 支払時期 | 各ストアの規定によります（通常は購入を確定したとき。コンビニ払いなどでは、お支払いのとき） |
 | 提供時期 | お支払いの完了後、ただちにバナーと全画面広告が表示されなくなります（補給〔リワード広告〕は、ご購入後もお客様が選んだときに見られます） |
 | 返品・キャンセル | デジタルコンテンツのため、購入の確定後は、お客様のご都合による返品・キャンセルはできません。返金は、各ストア（App Store・Google Play）の規定に従います |
-| 購入の復元 | 機種変更や再インストールのあとは、アプリの「設定」→「購入を復元」で元に戻せます（購入したときと同じ Apple アカウント・Google アカウントでのご利用が必要です。Android と iPhone の間では引き継げません） |
+| 購入の復元 | 機種変更や再インストールのあとは、アプリの「設定」→「広告」→「購入を復元」で元に戻せます（購入したときと同じ Apple アカウント・Google アカウントでのご利用が必要です。Android と iPhone の間では引き継げません） |
 | 動作環境 | Android 7.0 以上、iOS 15.0 以上 |
 
 ---
@@ -45,7 +45,7 @@ This notice covers the in-app purchase (removing the ads) of the game app VELVET
 | Other charges | Charges for your internet connection |
 | Payment method | The payment methods of the App Store or Google Play |
 | Payment timing | According to the store's rules (usually when you confirm the purchase; with methods such as cash at a convenience store, when you pay) |
-| Delivery | The banner and full-screen ads disappear as soon as the payment is complete (supply drops, the rewarded ads, stay available whenever you choose to watch one) |
+| Delivery | The banner and full-screen ads disappear as soon as the payment is complete (resupply ads, the rewarded ads, stay available whenever you choose to watch one) |
 | Returns and cancellations | As this is digital content, purchases cannot be returned or cancelled for your own reasons once confirmed. Refunds follow the rules of the App Store or Google Play |
-| Restoring the purchase | After changing devices or reinstalling the app, use Settings > "Restore purchase" in the app (with the same Apple Account or Google account you bought it with; it does not carry over between Android and iPhone) |
+| Restoring the purchase | After changing devices or reinstalling the app, use Settings > Ads > "Restore purchases" in the app (with the same Apple Account or Google account you bought it with; it does not carry over between Android and iPhone) |
 | Requirements | Android 7.0 or later, iOS 15.0 or later |
