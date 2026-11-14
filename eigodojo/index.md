@@ -126,7 +126,7 @@ This information is stored on your device (Android: SharedPreferences / iOS: Use
 - Ad content is limited to the "G" (general audiences) rating.
 - Once the store has confirmed the purchase in Section 6, the App no longer uses the ads SDK and sends nothing under this section. If the store cannot confirm the purchase in time, for example right after a reinstall or on the first start on a new device, ads may be shown and this information sent until it does.
 - The information is sent to Google over an encrypted connection (TLS).
-- Google handles the information under the Google Privacy Policy and the terms between the operator and Google (such as the Google Ads Data Processing Terms). Through these terms, the operator has confirmed that Google protects the information at least as well as this policy.
+- Google handles the information under the Google Privacy Policy and the terms between the operator and Google (such as the Google Ads data protection terms). Through these terms, the operator has confirmed that Google protects the information at least as well as this policy.
 - The operator neither receives nor stores the information that the ads SDK sends. How long Google keeps it is described in "How Google retains data we collect" (<https://policies.google.com/technologies/retention>).
 - Google Privacy Policy: <https://policies.google.com/privacy>
 - How Google uses information from sites or apps that use its services: <https://policies.google.com/technologies/partner-sites>
