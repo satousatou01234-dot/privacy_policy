@@ -1,9 +1,10 @@
 # 英語道場（EigoDojo）プライバシーポリシー
 
-[English](#english) ｜ [特定商取引法に基づく表記](tokushoho/) ｜ [アプリ一覧に戻る](../)
+[English](#english) ｜ [アプリ一覧に戻る](../)
 
 - 制定日: 2026年11月7日
-- 改定日: 2026年11月14日（アプリ内課金〔広告の非表示〕の追加、広告の内容の区分の変更、EEA・英国・スイスの利用者向けの記載の追加など）
+- 改定日: 2026年11月17日（アプリ内課金〔広告の非表示〕の終了、表示する広告をバナー広告だけにしたことの明記）
+- これまでの改定: 2026年11月14日（アプリ内課金〔広告の非表示〕の追加、広告の内容の区分の変更、EEA・英国・スイスの利用者向けの記載の追加など）
 - 運営者: KOKOAPPS
 - お問い合わせ: kokoapps@outlook.jp
 - 対象: Android 版（Google Play）・iOS 版（App Store）
@@ -12,7 +13,7 @@
 
 ## 1. 基本方針
 
-本アプリには利用者登録・ログインの機能はなく、運営者のサーバーはありません。学習の記録は利用者の端末内にだけ保存され、運営者が収集することはありません。ただし、広告を表示するため、Google LLC の広告サービス「Google AdMob」を利用しており、これにより一部の情報が Google に送信されます（第3条）。広告は、アプリ内課金で非表示にできます（第6条）。アクセス解析・クラッシュ収集のサービスは使用していません。
+本アプリには利用者登録・ログインの機能はなく、運営者のサーバーはありません。学習の記録は利用者の端末内にだけ保存され、運営者が収集することはありません。ただし、広告を表示するため、Google LLC の広告サービス「Google AdMob」を利用しており、これにより一部の情報が Google に送信されます（第3条）。本アプリにアプリ内課金（有料の機能・アイテムの販売）はありません。アクセス解析・クラッシュ収集のサービスは使用していません。
 
 ## 2. 端末内にだけ保存する情報
 
@@ -20,9 +21,8 @@
 |---|---|
 | 学習の進み具合（正解数・卒業した問題・解放したレベル・推定スコア） | 出題・レベル解放・スコア表示 |
 | 設定（表示言語・読み上げの音声・速度・出題の設定など） | アプリの動作 |
-| 広告の非表示を購入済みかどうか | 購入した利用者に広告を表示しないため（第6条） |
 
-保存場所は端末内（Android: SharedPreferences ／ iOS: UserDefaults）です。これらは運営者に送信されません。アンインストールするとすべて削除されます。学習の進み具合は、設定画面の「学習データをすべてリセット」でも削除できます（設定と購入済みかどうかは残ります）。OS のバックアップ機能（Google のバックアップ、iCloud バックアップ）の対象になる場合があり、その取り扱いは各社の規約に従います。
+保存場所は端末内（Android: SharedPreferences ／ iOS: UserDefaults）です。これらは運営者に送信されません。アンインストールするとすべて削除されます。学習の進み具合は、設定画面の「学習データをすべてリセット」でも削除できます（設定は残ります）。OS のバックアップ機能（Google のバックアップ、iCloud バックアップ）の対象になる場合があり、その取り扱いは各社の規約に従います。
 
 ## 3. 広告配信のために外部へ送信される情報（外部送信）
 
@@ -32,7 +32,7 @@
 
 - 本アプリは、学習の記録（回答・正解数・推定スコアなど）を広告 SDK に渡しません。
 - 広告の内容は、全年齢向け（G）に制限しています。
-- 第6条の購入をストアで確認できた後は、本アプリは広告 SDK を使用せず、本条の送信も行いません。再インストールの直後や新しい端末で最初に起動したときなどに、ストアでの確認が間に合わない場合は、確認できるまでの間、広告の表示と送信が行われることがあります。
+- 本アプリが表示する広告は、ホーム画面とモード画面の下部のバナー広告だけです。
 - 情報は、暗号化された通信（TLS）で Google に送信されます。
 - Google は、Google のプライバシーポリシーと、運営者と Google の間の規約（Google 広告のデータ保護規約など）に従って情報を扱います。運営者は、これらの規約により、Google が本ポリシーと同等以上の保護を行うことを確認しています。
 - 運営者は、広告 SDK が送信する情報を受け取らず、保存もしません。Google での保存期間は「Google によるデータの保持」（<https://policies.google.com/technologies/retention>）に従います。
@@ -56,33 +56,23 @@
 
 問題文などの読み上げには端末の音声合成エンジン（Android の「テキスト読み上げ」、iOS の読み上げ機能）を使います。読み上げる文章はエンジンに渡されますが、本アプリが音声を録音・保存・送信することはありません。エンジンの種類や設定によっては提供元が処理する場合があり、その取り扱いは各提供元の規約に従います。
 
-## 6. アプリ内課金（広告の非表示）
+## 6. 第三者提供
 
-本アプリは、広告を非表示にする機能（1 回払いの買い切り）を、App Store または Google Play のアプリ内課金で販売しています。販売の条件は「[特定商取引法に基づく表記](tokushoho/)」をご覧ください。
+利用者が使う OS の機能を通じたもの（第5条）と第3条の広告配信を除き、本アプリが利用者の情報を外部へ送信したり第三者に提供したりすることはありません。運営者は、第9条のお問い合わせで受け取るものを除き、利用者の情報を保有していません。
 
-- 支払いは各ストア（Apple Inc.、Google LLC）が処理します。運営者は、支払い方法などの決済情報を取得しません。決済情報は、各ストアのプライバシーポリシーに従って扱われます。
-- 本アプリは、購入済みかどうかを端末内に保存します。購入の確認と復元のため、起動時、アプリが前面に戻ったとき（購入済みと確認できるまで）、「購入を復元」の操作時に、端末から各ストアに問い合わせます。購入の情報を運営者のサーバーに送信することはありません。
-- 運営者は、各ストアから売上の報告として、注文番号・国・金額などの情報を受け取ることがあります。これらは、売上の管理とお問い合わせへの対応のためだけに使います。
-- 購入をストアで確認できた後は、本アプリは広告 SDK を使用せず、広告に関する同意の確認も表示しません。確認が間に合わない場合（第3条）は、確認できるまでの間、これらが表示されることがあります。
-- 購入の復元は、購入したときと同じストア（App Store または Google Play）の同じアカウントで行えます。Android と iPhone の間では引き継げません。
-
-## 7. 第三者提供
-
-利用者が使う OS の機能を通じたもの（第5条）、第3条の広告配信、第6条の各ストアによる決済を除き、本アプリが利用者の情報を外部へ送信したり第三者に提供したりすることはありません。運営者は、第6条の売上の報告と第10条のお問い合わせで受け取るものを除き、利用者の情報を保有していません。
-
-## 8. 対象年齢
+## 7. 対象年齢
 
 本アプリは13歳以上の方を対象としており、13歳未満の子どもを対象にしたものではありません。
 
-## 9. 利用者の権利
+## 8. 利用者の権利
 
-運営者は、第6条の売上の報告と第10条のお問い合わせで受け取るものを除き、利用者の情報を保有していません。端末内のデータは、アンインストールで消去できます（学習の進み具合は、設定画面の「学習データをすべてリセット」でも消去できます）。広告に関する情報は、第4条の方法または Google の窓口から管理できます。購入の履歴は、各ストア（Apple、Google）のアカウントの画面で確認できます。
+運営者は、第9条のお問い合わせで受け取るものを除き、利用者の情報を保有していません。端末内のデータは、アンインストールで消去できます（学習の進み具合は、設定画面の「学習データをすべてリセット」でも消去できます）。広告に関する情報は、第4条の方法または Google の窓口から管理できます。
 
-## 10. お問い合わせ時の情報
+## 9. お問い合わせ時の情報
 
 お問い合わせ（kokoapps@outlook.jp）をいただいた場合、メールアドレスとお問い合わせ内容を回答のためにのみ利用し、必要な期間を過ぎたら削除します。
 
-## 11. 改定
+## 10. 改定
 
 本ポリシーを改定する場合は本ページを更新し、重要な変更はアプリ内またはストアの掲載ページでお知らせします。
 
@@ -92,10 +82,11 @@
 
 # EigoDojo Privacy Policy (English)
 
-[Legal notice (Japan)](tokushoho/#english) ｜ [All apps](../)
+[All apps](../)
 
 - Effective date: November 7, 2026
-- Last updated: November 14, 2026 (the in-app purchase that removes the ads added, the ad content rating changed, and information for users in the EEA, the UK and Switzerland added)
+- Last updated: November 17, 2026 (the in-app purchase that removed the ads discontinued, and stated that the App shows banner ads only)
+- Earlier update: November 14, 2026 (the in-app purchase that removes the ads added, the ad content rating changed, and information for users in the EEA, the UK and Switzerland added)
 - Operator: KOKOAPPS
 - Contact: kokoapps@outlook.jp
 - Applies to: Android (Google Play) and iOS (App Store)
@@ -104,7 +95,7 @@ This privacy policy explains how the English-learning app "EigoDojo" ("the App")
 
 ## 1. Overview
 
-The App has no account or sign-in feature, and the operator has no servers. Your learning records are stored only on your device and are never collected by the operator. The App shows ads through Google AdMob (Google LLC), which receives some information as described in Section 3. The ads can be removed with an in-app purchase (Section 6). The App uses no analytics or crash-reporting services.
+The App has no account or sign-in feature, and the operator has no servers. Your learning records are stored only on your device and are never collected by the operator. The App shows ads through Google AdMob (Google LLC), which receives some information as described in Section 3. The App offers no in-app purchases. The App uses no analytics or crash-reporting services.
 
 ## 2. Information stored only on your device
 
@@ -112,9 +103,8 @@ The App has no account or sign-in feature, and the operator has no servers. Your
 |---|---|
 | Learning progress (correct-answer counts, graduated questions, unlocked levels, estimated scores) | Choosing questions, unlocking levels and showing scores |
 | Settings (display language, read-aloud voice and speed, question settings and so on) | Operating the App |
-| Whether you have bought the removal of the ads | Not showing ads to buyers (Section 6) |
 
-This information is stored on your device (Android: SharedPreferences / iOS: UserDefaults) and is never sent to the operator. All of it is deleted when you uninstall the App. Learning progress can also be deleted with "Reset all learning data" in Settings (the settings and the purchase are kept). It may be included in OS backups (Google backup / iCloud backup), which are governed by those providers' terms.
+This information is stored on your device (Android: SharedPreferences / iOS: UserDefaults) and is never sent to the operator. All of it is deleted when you uninstall the App. Learning progress can also be deleted with "Reset all learning data" in Settings (the settings are kept). It may be included in OS backups (Google backup / iCloud backup), which are governed by those providers' terms.
 
 ## 3. Information sent for advertising (sent outside the App)
 
@@ -124,7 +114,7 @@ This information is stored on your device (Android: SharedPreferences / iOS: Use
 
 - The App does not pass your learning records (answers, correct-answer counts, estimated scores and so on) to the ads SDK.
 - Ad content is limited to the "G" (general audiences) rating.
-- Once the store has confirmed the purchase in Section 6, the App no longer uses the ads SDK and sends nothing under this section. If the store cannot confirm the purchase in time, for example right after a reinstall or on the first start on a new device, ads may be shown and this information sent until it does.
+- The only ads the App shows are banner ads at the bottom of the home screen and the mode screens.
 - The information is sent to Google over an encrypted connection (TLS).
 - Google handles the information under the Google Privacy Policy and the terms between the operator and Google (such as the Google Ads data protection terms). Through these terms, the operator has confirmed that Google protects the information at least as well as this policy.
 - The operator neither receives nor stores the information that the ads SDK sends. How long Google keeps it is described in "How Google retains data we collect" (<https://policies.google.com/technologies/retention>).
@@ -148,32 +138,22 @@ This section also serves as the public notice on sending user information outsid
 
 Text such as questions is passed to your device's speech engine ("Text-to-speech" on Android, the speech feature on iOS) to be read aloud. The App does not record, store or transmit audio. Depending on the engine and its settings, its provider may process the text under its own terms.
 
-## 6. In-app purchase (removing the ads)
+## 6. Sharing with third parties
 
-The App sells the removal of the ads (a one-time purchase) as an in-app purchase on the App Store or Google Play. See the "[Legal notice (Japan)](tokushoho/#english)" for the terms of sale.
+Except for what goes through features of your operating system (Section 5) and the advertising in Section 3, the App neither sends your information outside the App nor shares it with third parties. The operator holds no information about you, except inquiries in Section 9.
 
-- Payments are processed by the stores (Apple Inc., Google LLC). The operator does not receive payment information such as your payment method, which the stores handle under their own privacy policies.
-- The App stores on your device whether you have bought the removal. To check and restore the purchase, the device asks the store when the App starts, when it returns to the foreground (until the purchase is confirmed) and when you use "Restore purchase". The App never sends purchase information to servers of the operator.
-- The operator may receive sales reports from the stores with information such as order numbers, countries and amounts, and uses them only to manage sales and answer inquiries.
-- Once the store has confirmed the purchase, the App no longer uses the ads SDK and no longer shows the consent question for ads. If the confirmation does not come in time (Section 3), these may appear until it does.
-- The purchase can be restored with the same account of the same store (App Store or Google Play) that you bought it with. It does not carry over between Android and iPhone.
-
-## 7. Sharing with third parties
-
-Except for what goes through features of your operating system (Section 5), the advertising in Section 3 and the payments by the stores in Section 6, the App neither sends your information outside the App nor shares it with third parties. The operator holds no information about you, except the sales reports in Section 6 and inquiries in Section 10.
-
-## 8. Children
+## 7. Children
 
 The App is intended for users aged 13 and over and is not directed at children under 13.
 
-## 9. Your rights
+## 8. Your rights
 
-The operator holds no information about you, except the sales reports in Section 6 and inquiries in Section 10. The data on your device is deleted when you uninstall the App (learning progress can also be deleted with "Reset all learning data" in Settings). Advertising data can be managed as described in Section 4 or via Google. Your purchase history is shown in your account at each store (Apple, Google).
+The operator holds no information about you, except inquiries in Section 9. The data on your device is deleted when you uninstall the App (learning progress can also be deleted with "Reset all learning data" in Settings). Advertising data can be managed as described in Section 4 or via Google.
 
-## 10. Contacting us
+## 9. Contacting us
 
 If you contact us (kokoapps@outlook.jp), your email address and message are used only to reply and are deleted after they are no longer needed.
 
-## 11. Changes
+## 10. Changes
 
 We will update this page when this policy changes and announce significant changes in the App or on the store listing.
